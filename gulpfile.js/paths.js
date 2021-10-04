@@ -6,8 +6,7 @@ module.exports = {
 	components: ['components/**/*.js', '!components/index.js', '!components/**/*.min.js'],
 	themes: ['themes/*.css', '!themes/*.min.css'],
 	main: [
-		'components/prism-core.js',
-		'plugins/file-highlight/prism-file-highlight.js'
+		'components/prism-core.js'
 	],
 	plugins: ['plugins/**/*.js', '!plugins/**/*.min.js'],
 	pluginsCSS: ['plugins/**/*.css', '!plugins/**/*.min.css'],
